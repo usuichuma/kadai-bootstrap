@@ -48,7 +48,6 @@
             <div class="col-sm-9">
                 <p>該当する内容の電話番号におかけください。</p>
                 <!-- テーブルの装飾を適用する指定を追加 -->
-                <table class="table">
                 <!-- さらにテーブルへ枠を追加する指定、行ごとの背景色が交互に変わる指定を追加 -->
                 <table class="mt-4 table table-striped table-bordered">
                     <thead>
@@ -76,7 +75,6 @@
                         </tr>
                     </tbody>
                 </table>
-                </table>
                 <!-- カードの装飾を適用 -->
                 <div class="card">
                     <!-- カードのタイトル部分として設定 -->
@@ -90,9 +88,7 @@
                     </div>
                 </div>
             </div>
-            </div>
-    </div>
-    <div class="container">
+  　　　  </div>
         <!-- グリッドを使うための指定を追加 -->
         <div class="mt-4 row">
             <!-- 576px以上の画面幅のとき、左側は3つ分のカラム幅で表示する指定を追加 -->
@@ -122,9 +118,8 @@
                     <div class="mb-3 row">
                         <!-- 576px以上の画面幅のとき、ラベルは3つ分のカラム幅で表示する指定を追加 -->
                         <label class="col-sm-3 col-form-label">氏名：</label>
-
                         <!-- 576px以上の画面幅のとき、フォーム部品は9つ分のカラム幅で表示する指定を追加 -->
-                        <div class="col-9">
+                        <div class="col-sm-9">
                             <input type="text" class="form-control" name="name">
                         </div>
                     </div>
@@ -166,16 +161,15 @@
                     <div class="mb-3 row">
                         <!-- 576px以上の画面幅のとき、3つ分のカラム幅の隙間を表示する設定を追加 -->
                         <!-- さらに、576px以上の画面幅のとき、9つ分のカラム幅で送信ボタンの表示部分の設定を追加 -->
-                        <div class="offset-sm-3 "></div>
+                        <div class="col-sm-3 "></div>
                         <div class="col-sm-9">
                             <!-- 送信ボタンを緑色にする設定を追加 -->
-                            <button type="submit" class="btn btn-success w-100">お問い合わせ内容を送信する</button>
+                            <button type="submit" class="btn btn-success w-100 sm-9">お問い合わせ内容を送信する</button>
                         </div>
                     </div>
                 </form>
             </div>
         </div>
-    </div>
     <footer class="text-center pt-3 border-top">
         &copy; 2021 SAMPLE Inc.
     </footer>
